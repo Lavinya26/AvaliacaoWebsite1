@@ -1,3 +1,9 @@
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
 .imgNav {
     width: 50px;
     height: auto;
@@ -8,9 +14,10 @@
     object-fit: cover;
 }
 
-.text-center img{
+.escolher img{
     width: 300px;
     height: auto;
+    border-radius: 10px;
 }
 
 .bannerE {
@@ -27,7 +34,7 @@
     height: 100px;
 }
 
-.text-center img:hover{
+.escolher img:hover{
     transform: scale(1.1);
     border-radius: 10px;
 }
@@ -67,5 +74,16 @@ a {
 
 .favImg {
     width: 30px;
+    height: auto;
+}
+
+.imgLogin {
+    width: 22px;
+    height: auto;
+    margin-left: 10px;
+}
+
+.logoImgS {
+    width: 250px;
     height: auto;
 }
